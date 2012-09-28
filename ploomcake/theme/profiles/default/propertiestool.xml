@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<object name="portal_properties" meta_type="Plone Properties Tool">
+ <object name="imaging_properties" meta_type="Plone Property Sheet">
+  <property name="title">Image handling properties</property>
+  <property name="allowed_sizes" type="lines">
+   <element value="wide 980:980"/>
+   <element value="large 768:768"/>
+   <element value="preview 400:400"/>
+   <element value="mini 200:200"/>
+   <element value="thumb 128:128"/>
+   <element value="tile 64:64"/>
+   <element value="icon 32:32"/>
+   <element value="listing 16:16"/>
+   <element value="small 90:90"/>
+  </property>
+ </object>
+
+ <object name="site_properties" meta_type="Plone Property Sheet">
+  <property name="external_links_open_new_window"
+     type="string">true</property>
+  <property name="mark_special_links" type="string">true</property>
+ </object>
+</object>
+ 

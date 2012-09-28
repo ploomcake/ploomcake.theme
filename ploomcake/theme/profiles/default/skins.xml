@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="PloomCake theme">
+
+ <object name="ploomcake_theme"
+    meta_type="Filesystem Directory View"
+    directory="ploomcake.theme:skins/ploomcake_theme"/>
+
+ <skin-path name="PloomCake theme" based-on="css3theme">
+  <layer name="ploomcake_theme"
+     insert-after="custom"/>
+ </skin-path>
+
+</object>

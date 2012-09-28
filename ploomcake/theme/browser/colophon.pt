@@ -1,0 +1,12 @@
+<div id="portal-colophon"
+     metal:define-macro="colophon"
+     i18n:domain="plone">
+<metal:slot define-slot="colophon" />
+<div class="colophonWrapper">
+    <div tal:replace="structure here/colophon-text/getText|nothing" />
+    <div class="made-in">
+        <a href="http://ploomcake.org" target="_blank" class="ploomcake">Ploomcake</a> flavoured.
+    </div>
+</div>
+</div>
+

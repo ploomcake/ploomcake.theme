@@ -1,0 +1,36 @@
+Changelog
+=========
+
+1.8 (unreleased)
+----------------
+- added collapsed/expanded style in tinymce [sithmel]
+
+1.7 (2012-07-27)
+----------------
+
+- fixed portal globalnav mobile [sithmel]
+
+1.6 (2012-07-20)
+----------------
+
+- fixed IE classes [sithmel]
+
+1.5 (2012-07-16)
+----------------
+
+- fixed print.css [adeste]
+- added a IE9 class in main template [adeste]
+
+
+1.0dev (unreleased)
+-------------------
+
+- Hack around Products.tinyMCE 1.2.x and IE9:
+  https://dev.plone.org/ticket/11690
+  It can be reverted when released Products.tinyMCE > 1.3 [sithmel]
+- moved the hack above in css3theme 1.3 version [sithmel]
+- updated to css3theme 1.3 version [sithmel]
+- fix mobile viewport [sithmel]
+- new ploomcake artworks [sithmel]
+- fix video resizing [sithmel]
+- enabled pinch to zoom [sithmel]

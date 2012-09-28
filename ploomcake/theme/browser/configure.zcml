@@ -1,0 +1,59 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="ploomcake.theme">
+
+  <!-- 'PloomCake theme' Zope 3 browser layer -->
+  <interface
+      interface=".interfaces.IPloomCakeThemeSpecific"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      name="PloomCake theme"
+      />
+  
+  <!-- Viewlets registration -->
+  <!-- Zope 3 browser resources -->
+
+  <!--CUSTOM FOOTER -->  
+  <browser:viewlet
+      name="plone.footer"
+      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      template="footer.pt"
+      layer=".interfaces.IPloomCakeThemeSpecific"
+      permission="zope2.View"
+      />
+
+
+  <!--CUSTOM COLOPHON -->
+  <browser:viewlet
+      name="plone.colophon"
+      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      template="colophon.pt"
+      layer=".interfaces.IPloomCakeThemeSpecific"
+      permission="zope2.View"
+      />
+
+  <!-- CUSTOM The global sections -->
+  <browser:viewlet
+      name="plone.global_sections"
+      manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+      class=".common.GlobalSectionsViewlet"
+      layer=".interfaces.IPloomCakeThemeSpecific"
+      permission="zope2.View"
+      />
+
+
+  <!-- Resource directory for images -->
+  <browser:resourceDirectory
+      name="ploomcake.theme.images"
+      directory="images"
+      layer=".interfaces.IPloomCakeThemeSpecific"
+      />
+
+  <!-- Resource directory for js -->
+  <browser:resourceDirectory
+      name="ploomcake.theme.js"
+      directory="js"
+      layer=".interfaces.IPloomCakeThemeSpecific"
+      />
+
+</configure>

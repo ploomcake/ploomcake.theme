@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<object>
+ <layout>
+  <styles>
+   <element value="Collapsed Heading|h2|collapsedHeading collapsed"/>
+   <element value="Expanded Heading|h2|collapsedHeading"/>
+   <element value="Collapsed Subheading|h3|collapsedHeading collapsed"/>
+   <element value="Expandeded Subheading|h3|collapsedHeading"/>
+  </styles>
+ </layout>
+</object>
