@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.8 (unreleased)
+1.8 (2012-10-03)
 ----------------
 - added collapsed/expanded style in tinymce [sithmel]
 
