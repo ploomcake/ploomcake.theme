@@ -17,7 +17,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.8'
+version = '1.9.dev0'
 
 setup(name='ploomcake.theme',
       version=version,
