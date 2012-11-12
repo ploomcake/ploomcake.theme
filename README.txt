@@ -1,3 +1,7 @@
+.. figure::  http://www.gravatar.com/avatar/9101e4d09e7d4c926259450c782f08c6   
+    :align: center
+    :target: http://www.ploomcake.org
+
 Description
 ===========
 
