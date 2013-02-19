@@ -3,5 +3,6 @@
   <version>1000</version>
     <dependencies>
         <dependency>profile-redomino.css3theme:default</dependency>
+        <dependency>profile-plone.app.theming:default</dependency>
     </dependencies>
 </metadata>

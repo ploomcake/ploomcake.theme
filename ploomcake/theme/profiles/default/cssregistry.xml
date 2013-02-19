@@ -5,6 +5,116 @@
     id="theme.css"
     media="" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
-    enabled="1" expression=""/>
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    enabled="1" />
+
+ <stylesheet title=""
+    id="ploomcake.editing.css"
+    media="" rel="stylesheet" rendering="import"
+    cacheable="True" compression="safe" cookable="True"
+    expression=""
+    enabled="1" />
+
+<!-- disable all the theme css when diazo is on -->
+
+ <stylesheet title=""
+    id="member.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="base.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="public.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="columns.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="authoring.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="portlets.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="controlpanel.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="deprecated.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="navtree.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="invisibles.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="forms.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="print.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="mobile.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="RTL.css"
+    expression="python:portal.restrictedTraverse('@@plone_portal_state').is_rtl() and not request.get('HTTP_X_THEME_ENABLED')"
+    />
+
+ <stylesheet title=""
+    id="mobile_devices.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="css3theme_all.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="css3theme_maxwidth980.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="css3theme_maxwidth650.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="css3theme_maxwidth480.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
+    id="ploomcake.languageselector.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
 
 </object>

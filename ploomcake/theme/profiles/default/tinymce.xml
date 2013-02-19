@@ -7,5 +7,9 @@
    <element value="Collapsed Subheading|h3|collapsedHeading collapsed"/>
    <element value="Expandeded Subheading|h3|collapsedHeading"/>
   </styles>
+  <tablestyles purge="False">
+   <element value="Mobile Subdued grid|plain hide_in_desktop"/>
+   <element value="Mobile Invisible grid|invisible hide_in_desktop"/>
+  </tablestyles>
  </layout>
 </object>

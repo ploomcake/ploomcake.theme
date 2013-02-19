@@ -43,6 +43,8 @@ setup(name='ploomcake.theme',
           'setuptools',
           'redomino.breadcrumbsbrain',
           'redomino.css3theme>=1.3',
+          'plone.app.theming',
+          'plone.app.themingplugins',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
