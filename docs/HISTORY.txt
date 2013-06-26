@@ -4,6 +4,8 @@ Changelog
 1.9 (unreleased)
 ----------------
 
+- fixed table styles (now compatible with bootstrap) [sithmel]
+- removed kss-spinner (removed in plone 4.3) [sithmel]
 - Readme.txt updated [dpollino]
 - added diazo compatibility [sithmel]
 - added tinymce table styles [sithmel, adeste]

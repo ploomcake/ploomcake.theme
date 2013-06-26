@@ -26,6 +26,9 @@
 /*
 hide in desktop / mobile
 */
+table.invisible{
+    visibility: visible !important;
+}
 
 .hide_width_gt_980px,
 .hide_width_gt_650px,

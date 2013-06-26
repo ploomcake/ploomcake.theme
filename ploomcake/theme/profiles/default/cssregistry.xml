@@ -18,6 +18,11 @@
 <!-- disable all the theme css when diazo is on -->
 
  <stylesheet title=""
+    id="reset.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
+    />
+
+ <stylesheet title=""
     id="member.css"
     expression="not: request/HTTP_X_THEME_ENABLED | nothing"
     />
@@ -85,31 +90,6 @@
  <stylesheet title=""
     id="RTL.css"
     expression="python:portal.restrictedTraverse('@@plone_portal_state').is_rtl() and not request.get('HTTP_X_THEME_ENABLED')"
-    />
-
- <stylesheet title=""
-    id="mobile_devices.css"
-    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
-    />
-
- <stylesheet title=""
-    id="css3theme_all.css"
-    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
-    />
-
- <stylesheet title=""
-    id="css3theme_maxwidth980.css"
-    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
-    />
-
- <stylesheet title=""
-    id="css3theme_maxwidth650.css"
-    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
-    />
-
- <stylesheet title=""
-    id="css3theme_maxwidth480.css"
-    expression="not: request/HTTP_X_THEME_ENABLED | nothing"
     />
 
  <stylesheet title=""
